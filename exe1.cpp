@@ -3,12 +3,9 @@
 using namespace std;
 
 double argamassa=0.01;
-double alturatijolo=0;
-double comprimentotijolo=0;
+double alturatijolo,comprimentotijolo,alturaparede,comprimentoparede,areaparede=0;
 int quantidadetijolo=0;
-double alturaparede=0;
-double comprimentoparede=0;
-double areaparede=0;
+
 
 int main(){
 
