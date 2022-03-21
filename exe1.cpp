@@ -20,12 +20,18 @@ cin>> alturaparede;
 cout<<"informe o comprimento desejado da parede\n";
 cin>>comprimentoparede;
 
-areaparede=alturaparede*comprimentoparede;
+areaparede= alturaparede*comprimentoparede;
+cout<<"a area da parede e:" <<areaparede<< endl;
 
-cout<<"a area da parede e:" <<areaparede<<
+cout<<"informe a altura do tijolo\n\n";
+cin>>alturatijolo;
 
+cout<<"informe comprimento do tijolo\n\n";
+cin>>comprimentotijolo;
 
+quantidadetijolo=(areaparede)/((alturatijolo+argamassa)*(comprimentotijolo+argamassa));
 
+cout<<"a quantidade de tijolos necessario para parede e de:\n\n"<<quantidadetijolo<< endl;
 
 
 system("pause");
