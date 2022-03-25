@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <iomanip>
 
 using namespace std;
 
@@ -7,6 +8,8 @@ double altura,peso,imc;
 char opc;
 
 int main(){
+
+cout<<setprecision(2)<< fixed;
 
 cout<<"\nCalculo de IMC\n";
 
