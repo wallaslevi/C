@@ -12,10 +12,10 @@ cout<<"\nCalculo de IMC\n";
 
 inicio:
 
-cout<<"informe sua altura com apenas 3 algoritmos em metros";
+cout<<"informe sua altura com apenas 3 algoritmos em metros\n";
 cin>>altura;
 
-cout<<"\ninforme seu peso com 4 algoritmos em kg";
+cout<<"\ninforme seu peso com 4 algoritmos em kg\n";
 cin>>peso;
 
 imc = (peso / (altura * altura));
