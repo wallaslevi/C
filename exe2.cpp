@@ -1,17 +1,46 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
+double altura,peso,imc;
+char opc;
 
 int main(){
 
+cout<<"\nCalculo de IMC\n";
 
+inicio:
 
+cout<<"informe sua altura com apenas 3 algoritmos em metros";
+cin>>altura;
 
+cout<<"\ninforme seu peso com 4 algoritmos em kg";
+cin>>peso;
 
+imc = (peso / (altura * altura));
 
+cout<<"\nSeu IMC é de:"<<imc<< endl;
 
-    system("pause");
+if(imc<18.5){
+    cout<<"sua classificação é de uma pessoa MAGRA";
+}else if(imc==18.5 or imc<=24.9){
+    cout<<"sua classificação é de uma pessoa NORMAL";
+}else if(imc==25.0 or imc<=29.9){
+    cout<<"sua classificação é de uma pessoa com SOBREPESO";
+}else if(imc==30.0 or imc<=39.9){
+    cout<<"sua classificação é de uma pessoa com OBESIDADE";
+}else{
+    cout<<"sua classificação é de uma pessoa com OBESIDADE GRAVE";
+}
 
-    return 0;
+cout<<"\ndeseja realizar nova consulta?[S/N]\n";
+cin>>opc;
+
+if(opc=='s' or 'S'){
+    goto inicio;
+}
+
+return 0;
+
 }
