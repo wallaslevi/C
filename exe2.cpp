@@ -4,7 +4,7 @@
 
 using namespace std;
 
-double altura,peso,imc;
+float altura,peso,imc;
 char opc;
 
 int main(){
