@@ -23,24 +23,24 @@ cin>>peso;
 
 imc = (peso / (altura * altura));
 
-cout<<"\nSeu IMC é de:"<<imc<< endl;
+cout<<"\nSeu IMC e de:"<<imc<< endl;
 
 if(imc<18.5){
-    cout<<"sua classificação e de uma pessoa MAGRA";
+    cout<<"sua classificacao e de uma pessoa MAGRA";
 }else if(imc==18.5 or imc<=24.9){
-    cout<<"sua classificação e de uma pessoa NORMAL";
+    cout<<"sua classificacao e de uma pessoa NORMAL";
 }else if(imc==25.0 or imc<=29.9){
-    cout<<"sua classificação e de uma pessoa com SOBREPESO";
+    cout<<"sua classificacao e de uma pessoa com SOBREPESO";
 }else if(imc==30.0 or imc<=39.9){
-    cout<<"sua classificação e de uma pessoa com OBESIDADE";
+    cout<<"sua classificacao e de uma pessoa com OBESIDADE";
 }else{
-    cout<<"sua classificação e de uma pessoa com OBESIDADE GRAVE";
+    cout<<"sua classificacao e de uma pessoa com OBESIDADE GRAVE";
 }
 
 cout<<"\ndeseja realizar nova consulta?[S/N]\n";
 cin>>opc;
 
-if(opc=='s' or 'S'){
+if(opc=='s' or opc=='S'){
     goto inicio;
 }
 
