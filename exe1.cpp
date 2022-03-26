@@ -1,15 +1,17 @@
 #include <iostream>
 #include <cstdlib>
+#include <iomanip>
 
 using namespace std;
 
-double argamassa=0.01;
-double alturatijolo,comprimentotijolo,alturaparede,comprimentoparede,areaparede=0;
+float argamassa=0.01;
+float alturatijolo,comprimentotijolo,alturaparede,comprimentoparede,areaparede=0;
 int quantidadetijolo=0;
 char opc;
 
 int main(){
 
+cout<<setprecision(2)<<fixed;
 
 cout<<"ola\n vamos interagir um pouco?!\n\n";
 
