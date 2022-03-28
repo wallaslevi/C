@@ -78,5 +78,5 @@ goto inicio;
 
 }
 
-
+return 0;
 }
