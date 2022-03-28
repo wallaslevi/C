@@ -19,6 +19,7 @@ cout<<setprecision(2)<<fixed;
 cout<<"\ncalculo de taxa metabolica basal TMB\n";
 cout<<"\nTMB e a quantidade de energia necessaria para a manutencao das funcoes vitais do organismo ao longo de 24 horas. ela e medida em calorias, que e a energia extraida pelo nosso corpo a partir dos macronutrientes (carboidratos, proteinas e gorduras totais)\n\n";
 
+inicio2:
 inicio:
 
 cout<<"\nO calculo sera para homem ou mulher?\n";
@@ -74,7 +75,7 @@ cout<<"\ndeseja realizar nova consulta?[S/N]\n";
 cin>>opc;
 
 if(opc=='S' or opc=='s'){
-goto inicio;
+goto inicio2;
 
 }
 
