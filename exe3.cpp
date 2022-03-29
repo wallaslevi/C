@@ -19,9 +19,9 @@ cout<<setprecision(2)<<fixed;
 cout<<"\ncalculo de taxa metabolica basal TMB\n";
 cout<<"\nTMB e a quantidade de energia necessaria para a manutencao das funcoes vitais do organismo ao longo de 24 horas. ela e medida em calorias, que e a energia extraida pelo nosso corpo a partir dos macronutrientes (carboidratos, proteinas e gorduras totais)\n\n";
 
-inicio2:
-inicio:
 
+inicio:
+	
 cout<<"\nO calculo sera para homem ou mulher?\n";
 getline(cin, hm);
 
@@ -62,6 +62,7 @@ goto inicio;
 
 }
 
+
 cout<<"\nagora que calculamos a taxa metabolica basal, que e as calorias que nosso corpo precisa pra manter as energias diariamente de simples atividades, vamos adicionar o gasto calorico de treino que varia entre 300 a 500 calorias\n";
 
 cout<<"\nquanto voce acredita que gasta de calorias no treino?\n";
@@ -74,8 +75,8 @@ cout<<"\nseu gasto total de calorias e de:\n"<<kcaltotal<<endl;
 cout<<"\ndeseja realizar nova consulta?[S/N]\n";
 cin>>opc;
 
-if(opc=='S' or opc=='s'){
-goto inicio2;
+if(opc=='s' or opc=='S'){
+goto inicio;
 
 }
 
