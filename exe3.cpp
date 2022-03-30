@@ -79,6 +79,6 @@ if(opc=='s' or opc=='S'){
 goto inicio;
 
 }
-
+//a mensagem do "else" da linha 60 nao deveria aparecer apos o usuario interagir na linha 78 com a letra "S" ou "s" mas fazer oq ne...
 return 0;
 }
