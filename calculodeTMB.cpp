@@ -57,8 +57,9 @@ cout<<"\nSua taxa metabolica basal e de:\n"<<tmb<<endl;
 
 }else{
 
-cout<<"\nvoce digitou algum valor incorreto, vamos recomecar\n";
-goto inicio;
+
+cout<<"\nvoce digitou algum valor incorreto, vamos recomecar\n"; goto inicio;
+
 
 }
 
