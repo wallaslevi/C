@@ -15,7 +15,7 @@ cout<<"\nCalculo de IMC\n";
 
 inicio:
 
-cout<<"informe sua altura com apenas 3 algoritmos em metros\n";
+cout<<"informe sua altura com apenas 3 algoritmos em metros, utilize ponto\n";
 cin>>altura;
 
 cout<<"\ninforme seu peso com 4 algoritmos em kg\n";
